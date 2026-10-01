@@ -11,7 +11,8 @@ terraform {
 
 terraform {
   backend "http" {
-    address = "https://objectstorage.us-sanjose-1.oraclecloud.com/p/bf640XMjEo6smvwX_N9xCEzv-Y6K4EeuiTF4CznzxjTvbYNE9Qa4qJmc3eKpWNUz/n/axxeo7mon9c6/b/bucket-20240817-1023/o/terraform.tfstate"
+    address = "https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/zMUKjf4uuwHH1t2QVUywTdVC3AOz9NmSJhd9o5dSs63o-TB6tLWIIXH4mxj5Fwof/n/axqmuvx2wzph/b/bucket-20261001-0900/o/terraform.tfstate"
     update_method = "PUT"
   }
 }
+
